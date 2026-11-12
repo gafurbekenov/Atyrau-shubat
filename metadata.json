@@ -1,0 +1,6 @@
+{
+  "name": "Атырау Шұбат — Натуральный Шубат и Верблюжье Молоко",
+  "description": "Свежий натуральный шубат и верблюжье молоко прямо из Кульсары с доставкой по Атырау и самовывозом на рынке Сарайшық. Заказ через WhatsApp и онлайн.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

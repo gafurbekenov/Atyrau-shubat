@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #292524;
+    background-color: #FAF7F2;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-ornament {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Subtle Kazakh traditional ornament pattern background */
+.bg-kazakh-pattern {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(rgba(180, 130, 60, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.ornament-border-top {
+  border-top: 1px solid rgba(217, 119, 6, 0.2);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5EFEB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D7C4B7;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B49B89;
+}
